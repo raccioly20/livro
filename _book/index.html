@@ -4,19 +4,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 1 About | A Minimal Book Example</title>
-<meta name="author" content="John Doe">
+<title>Chapter 1 Sobre | Introdução a Ciência de Dados com o R</title>
+<meta name="author" content="Ricardo Accioly">
 <meta name="description" content="&lt;p&gt;This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::bs4_book,
 set in the _output.yml file.&lt;/p&gt;">
 <meta name="generator" content="bookdown 0.24 with bs4_book()">
-<meta property="og:title" content="Chapter 1 About | A Minimal Book Example">
+<meta property="og:title" content="Chapter 1 Sobre | Introdução a Ciência de Dados com o R">
 <meta property="og:type" content="book">
 <meta property="og:description" content="&lt;p&gt;This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::bs4_book,
 set in the _output.yml file.&lt;/p&gt;">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 1 About | A Minimal Book Example">
+<meta name="twitter:title" content="Chapter 1 Sobre | Introdução a Ciência de Dados com o R">
 <meta name="twitter:description" content="&lt;p&gt;This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::bs4_book,
 set in the _output.yml file.&lt;/p&gt;">
@@ -33,7 +33,7 @@ set in the _output.yml file.&lt;/p&gt;">
 
     <div class="d-flex align-items-start justify-content-between">
       <h1>
-        <a href="index.html" title="">A Minimal Book Example</a>
+        <a href="index.html" title="">Introdução a Ciência de Dados com o R</a>
       </h1>
       <button class="btn btn-outline-primary d-lg-none ml-2 mt-1" type="button" data-toggle="collapse" data-target="#main-nav" aria-expanded="true" aria-controls="main-nav"><i class="fas fa-bars"></i><span class="sr-only">Show table of contents</span></button>
     </div>
@@ -44,31 +44,33 @@ set in the _output.yml file.&lt;/p&gt;">
 </form>
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
-        <ul class="book-toc list-unstyled">
-<li><a class="active" href="index.html"><span class="header-section-number">1</span> About</a></li>
-<li><a class="" href="hello-bookdown.html"><span class="header-section-number">2</span> Hello bookdown</a></li>
-<li><a class="" href="cross.html"><span class="header-section-number">3</span> Cross-references</a></li>
-<li><a class="" href="parts.html"><span class="header-section-number">4</span> Parts</a></li>
-<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">5</span> Footnotes and citations</a></li>
-<li><a class="" href="blocks.html"><span class="header-section-number">6</span> Blocks</a></li>
-<li><a class="" href="sharing-your-book.html"><span class="header-section-number">7</span> Sharing your book</a></li>
-<li><a class="" href="references.html">References</a></li>
-</ul>
+        <ul class="book-toc list-unstyled"><li><a class="active" href="index.html"><span class="header-section-number">Chapter 1</span> Sobre</a></li></ul>
 
         <div class="book-extra">
           <p><a id="book-repo" href="https://github.com/raccioly20/livro">View book source <i class="fab fa-github"></i></a></p>
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><!--bookdown:title:end--><!--bookdown:title:start--><div id="about" class="section level1" number="1">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><!--bookdown:title:end--><!--bookdown:title:start--><div id="sobre" class="section level1" number="1">
 <h1>
-<span class="header-section-number">1</span> About<a class="anchor" aria-label="anchor" href="#about"><i class="fas fa-link"></i></a>
+<span class="header-section-number">1</span> Sobre<a class="anchor" aria-label="anchor" href="#sobre"><i class="fas fa-link"></i></a>
 </h1>
-<p>This is a <em>sample</em> book written in <strong>Markdown</strong>. You can use anything that Pandoc’s Markdown supports; for example, a math equation <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
-<div id="usage" class="section level2" number="1.1">
+<p>Neste livro online teremos noções introdutórias de Ciência de Dados através de exemplos desenvolvido no R.
+This is a <em>sample</em> book written in <strong>Markdown</strong>. You can use anything that Pandoc’s Markdown supports; for example, a math equation <span class="math inline">\(a^2 + b^2 = c^2\)</span>.</p>
+<div id="o-que-é-ciência-de-dados" class="section level2" number="1.1">
 <h2>
-<span class="header-section-number">1.1</span> Usage<a class="anchor" aria-label="anchor" href="#usage"><i class="fas fa-link"></i></a>
+<span class="header-section-number">1.1</span> O que é Ciência de Dados<a class="anchor" aria-label="anchor" href="#o-que-%C3%A9-ci%C3%AAncia-de-dados"><i class="fas fa-link"></i></a>
 </h2>
+<p>A ciência de dados combina vários áreas de conhecimento entre elas:
+- Estatística
+- Engenharia de Computação
+- Ciência de Computação</p>
+<p>Como o próprio nome indica os dados são o principal elemento envolvido. Uma das tarefas mais trabalhosas é a proparação dos dados para análise. Isto, em geral, pode incluir:</p>
+<ul>
+<li>limpeza de dados</li>
+<li>agregação e manipulação</li>
+<li>análise de dados faltantes/imputação</li>
+</ul>
 <p>Each <strong>bookdown</strong> chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter <em>must</em> start with a first-level heading: <code># A good chapter</code>, and can contain one (and only one) first-level heading.</p>
 <p>Use second-level and higher headings within chapters like: <code>## A short section</code> or <code>### An even shorter section</code>.</p>
 <p>The <code>index.Rmd</code> file is required, and is also your first book chapter. It will be the homepage when you render the book.</p>
@@ -99,20 +101,19 @@ set in the _output.yml file.&lt;/p&gt;">
 </div>
   <div class="chapter-nav">
 <div class="empty"></div>
-<div class="next"><a href="hello-bookdown.html"><span class="header-section-number">2</span> Hello bookdown</a></div>
+<div class="empty"></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#about"><span class="header-section-number">1</span> About</a></li>
-<li><a class="nav-link" href="#usage"><span class="header-section-number">1.1</span> Usage</a></li>
+<li><a class="nav-link" href="#sobre"><span class="header-section-number">Chapter 1</span> Sobre</a></li>
+<li><a class="nav-link" href="#o-que-%C3%A9-ci%C3%AAncia-de-dados"><span class="header-section-number">1.1</span> O que é Ciência de Dados</a></li>
 <li><a class="nav-link" href="#render-book"><span class="header-section-number">1.2</span> Render book</a></li>
 <li><a class="nav-link" href="#preview-book"><span class="header-section-number">1.3</span> Preview book</a></li>
 </ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/raccioly20/livro/blob/master/index.Rmd">View source <i class="fab fa-github"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/raccioly20/livro/edit/master/index.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+          
         </ul>
 </div>
     </nav>
@@ -124,7 +125,7 @@ set in the _output.yml file.&lt;/p&gt;">
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>A Minimal Book Example</strong>" was written by John Doe. It was last built on 2022-01-02.</p>
+    <p>"<strong>Introdução a Ciência de Dados com o R</strong>" was written by Ricardo Accioly. It was last built on 2022-01-03.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">

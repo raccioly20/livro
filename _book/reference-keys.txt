@@ -23,3 +23,5 @@ sharing-your-book
 publishing
 pages
 metadata-for-sharing
+sobre
+o-que-é-ciência-de-dados

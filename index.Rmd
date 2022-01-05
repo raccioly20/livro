@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "Introdução a Ciência de Dados com o R"
+author: "Ricardo Accioly"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -15,11 +15,26 @@ biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
 ---
 
-# About
+# Sobre
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+Neste livro online teremos noções introdutórias de Ciência de Dados através de exemplos desenvolvido no R.
 
-## Usage 
+
+## O que é Ciência de Dados 
+
+A ciência de dados combina vários áreas de conhecimento entre elas:
+
+- Estatística
+- Ciência de Computação
+- Engenharia de Computação
+
+Como o próprio nome indica os dados são o principal elemento envolvido. Uma das tarefas mais trabalhosas é a proparação dos dados para análise. Isto, em geral, pode incluir:
+
+- limpeza de dados
+- agregação e manipulação
+- análise de dados faltantes/imputação
+
+
 
 Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
 
